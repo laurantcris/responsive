@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 0;
+}
+
+.desktop, .pied {
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    background-color: rgb(249, 252, 252);
+    margin: 0 auto;
+}
+
+h1 {
+    color: chocolate;
+}
+
+.desktop p {
+    color: white;
+}
+
+.head, .foot {
+        background-color: darkgray;
+    padding: 15px 20px;
+    }
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    gap :15px
+
+}
+
+.pied {
+    padding-top: 30px;
+}
+.pied p {
+        color: white;
+}
+
+
+
+

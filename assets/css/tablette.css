@@ -1,0 +1,10 @@
+
+
+.container {
+       flex-wrap: wrap;
+    }   
+   
+.container article {
+       width: calc(50% - 10px);
+    }
+   
